@@ -1,0 +1,32 @@
+== MoreValidators
+
+A compilation of simple validators we need in most Rails apps.
+This gem plugin only works with Rails 3 / ActiveModel.
+
+== Examples
+
+Validation of an email address :
+
+  class MyModel < ActiveRecord::Base
+    validates :my_email_field, :email => true
+  end
+
+Validation of an URL :
+
+  class MyModel < ActiveRecord::Base
+    validates :my_url_field, :url => true
+  end
+
+== Installation
+
+As a gem in your app's Gemfile :
+
+  gem 'more_validators'
+
+== Tests
+
+If you wanna run the tests :
+
+  rake spec
+
+Copyright (c) 2010 Aurélien Malisart, released under the MIT license
