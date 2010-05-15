@@ -2,7 +2,7 @@ require 'rubygems'
 require 'spec'
 require 'active_model'
 
-require File.dirname(__FILE__) + '/../lib/more_validators.rb'
+require File.dirname(__FILE__) + '/../lib/extra_validators.rb'
  
 # Utils models =================================================================
 
@@ -28,5 +28,3 @@ end
 class Bookmark < BaseTestModel
   validates :url, :url => true
 end
-
-User.new(:email => "dude.lastname@yahoo.cz")

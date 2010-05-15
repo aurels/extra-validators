@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
-  s.name = "more_validators"
+  s.name = "extra_validators"
   s.summary = "A collection of misc usefull validators for ActiveModel"
   s.description = "A collection of misc usefull validators for ActiveModel"
-  s.homepage = "http://github.com/aurels/more_validators"
+  s.homepage = "http://github.com/aurels/extra_validators"
   
   s.version = "1.0"
   s.date = "2010-05-15"

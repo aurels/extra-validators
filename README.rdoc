@@ -1,4 +1,4 @@
-== MoreValidators
+== ExtraValidators
 
 A compilation of simple validators we need in most Rails apps.
 This gem plugin only works with Rails 3 / ActiveModel.
@@ -21,7 +21,7 @@ Validation of an URL :
 
 As a gem in your app's Gemfile :
 
-  gem 'more_validators'
+  gem 'extra_validators'
 
 == Tests
 
