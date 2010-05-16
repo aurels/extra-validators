@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "aurelien.malisart@gmail.com"
   
   s.require_paths = ["lib"]
-  s.files = Dir["lib/*"] + Dir["spec/**/*"] + ["README.rdoc", "Rakefile", "init.rb"]
+  s.files = Dir["lib/**/*"] + Dir["spec/**/*"] + ["README.rdoc", "Rakefile"]
   s.extra_rdoc_files = ["README.rdoc"]
   
   s.has_rdoc = false
