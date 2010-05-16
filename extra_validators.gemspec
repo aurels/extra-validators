@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.description = "A collection of misc usefull validators for ActiveModel"
   s.homepage = "http://github.com/aurels/extra_validators"
   
-  s.version = "1.0"
-  s.date = "2010-05-15"
+  s.version = "1.1"
+  s.date = "2010-05-16"
   
   s.authors = ["Aurélien Malisart"]
   s.email = "aurelien.malisart@gmail.com"
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
 
   s.rubygems_version = "1.3.4"
-  s.required_rubygems_version = Gem::Requirement.new(">= 1.2")
+  s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6")
 end

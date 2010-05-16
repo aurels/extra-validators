@@ -29,4 +29,5 @@ If you wanna run the tests :
 
   rake spec
 
-Copyright (c) 2010 Aurélien Malisart, released under the MIT license
+Copyright (c) 2010 Aurélien Malisart, released under the MIT license, see
+LICENSE for more details.
