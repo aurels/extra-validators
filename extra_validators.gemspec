@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.description = "A collection of misc usefull validators for ActiveModel"
   s.homepage = "http://github.com/aurels/extra_validators"
   
-  s.version = "1.1"
+  s.version = "1.2"
   s.date = "2010-05-16"
   
   s.authors = ["Aurélien Malisart"]
